@@ -19,6 +19,9 @@
         <member name="M:WebAPIToWADL.Configuration.Fakes.ShimConfiguration.BehaveAsNotImplemented">
             <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
         </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.ShimConfiguration.Bind(WebAPIToWADL.Configuration.IConfiguration)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
         <member name="P:WebAPIToWADL.Configuration.Fakes.ShimConfiguration.BaseURIGet">
             <summary>Sets the shim of Configuration.get_BaseURI()</summary>
         </member>
@@ -46,191 +49,17 @@
         <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.#ctor">
             <summary>Initializes a new instance</summary>
         </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
-            <summary>Sets the stub of ConfigurationElement.DeserializeElement(XmlReader reader, Boolean serializeCollectionKey)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.DeserializeElementXmlReaderBoolean">
-            <summary>Sets the stub of ConfigurationElement.DeserializeElement(XmlReader reader, Boolean serializeCollectionKey)</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.DeserializeSection(System.Xml.XmlReader)">
-            <summary>Sets the stub of ConfigurationSection.DeserializeSection(XmlReader reader)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.DeserializeSectionXmlReader">
-            <summary>Sets the stub of ConfigurationSection.DeserializeSection(XmlReader reader)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ElementPropertyGet">
-            <summary>Sets the stub of ConfigurationElement.get_ElementProperty()</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.Equals(System.Object)">
-            <summary>Sets the stub of ConfigurationElement.Equals(Object compareTo)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.EqualsObject">
-            <summary>Sets the stub of ConfigurationElement.Equals(Object compareTo)</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.GetHashCode">
-            <summary>Sets the stub of ConfigurationElement.GetHashCode()</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.GetHashCode01">
-            <summary>Sets the stub of ConfigurationElement.GetHashCode()</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.GetRuntimeObject">
-            <summary>Sets the stub of ConfigurationSection.GetRuntimeObject()</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.GetRuntimeObject01">
-            <summary>Sets the stub of ConfigurationSection.GetRuntimeObject()</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.GetTransformedAssemblyString(System.String)">
-            <summary>Sets the stub of ConfigurationElement.GetTransformedAssemblyString(String assemblyName)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.GetTransformedAssemblyStringString">
-            <summary>Sets the stub of ConfigurationElement.GetTransformedAssemblyString(String assemblyName)</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.GetTransformedTypeString(System.String)">
-            <summary>Sets the stub of ConfigurationElement.GetTransformedTypeString(String typeName)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.GetTransformedTypeStringString">
-            <summary>Sets the stub of ConfigurationElement.GetTransformedTypeString(String typeName)</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.Init">
-            <summary>Sets the stub of ConfigurationElement.Init()</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.Init01">
-            <summary>Sets the stub of ConfigurationElement.Init()</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.InitializeDefault">
-            <summary>Sets the stub of ConfigurationElement.InitializeDefault()</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.InitializeDefault01">
-            <summary>Sets the stub of ConfigurationElement.InitializeDefault()</summary>
-        </member>
         <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.InitializeStub">
             <summary>Initializes a new instance of type StubConfiguration</summary>
         </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.IsModified">
-            <summary>Sets the stub of ConfigurationSection.IsModified()</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.IsModified01">
-            <summary>Sets the stub of ConfigurationSection.IsModified()</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.IsReadOnly">
-            <summary>Sets the stub of ConfigurationElement.IsReadOnly()</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.IsReadOnly01">
-            <summary>Sets the stub of ConfigurationElement.IsReadOnly()</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ListErrors(System.Collections.IList)">
-            <summary>Sets the stub of ConfigurationElement.ListErrors(IList errorList)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ListErrorsIList">
-            <summary>Sets the stub of ConfigurationElement.ListErrors(IList errorList)</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.OnDeserializeUnrecognizedAttribute(System.String,System.String)">
-            <summary>Sets the stub of ConfigurationElement.OnDeserializeUnrecognizedAttribute(String name, String value)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.OnDeserializeUnrecognizedAttributeStringString">
-            <summary>Sets the stub of ConfigurationElement.OnDeserializeUnrecognizedAttribute(String name, String value)</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.OnDeserializeUnrecognizedElement(System.String,System.Xml.XmlReader)">
-            <summary>Sets the stub of ConfigurationElement.OnDeserializeUnrecognizedElement(String elementName, XmlReader reader)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.OnDeserializeUnrecognizedElementStringXmlReader">
-            <summary>Sets the stub of ConfigurationElement.OnDeserializeUnrecognizedElement(String elementName, XmlReader reader)</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.OnRequiredPropertyNotFound(System.String)">
-            <summary>Sets the stub of ConfigurationElement.OnRequiredPropertyNotFound(String name)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.OnRequiredPropertyNotFoundString">
-            <summary>Sets the stub of ConfigurationElement.OnRequiredPropertyNotFound(String name)</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.PostDeserialize">
-            <summary>Sets the stub of ConfigurationElement.PostDeserialize()</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.PostDeserialize01">
-            <summary>Sets the stub of ConfigurationElement.PostDeserialize()</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.PreSerialize(System.Xml.XmlWriter)">
-            <summary>Sets the stub of ConfigurationElement.PreSerialize(XmlWriter writer)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.PreSerializeXmlWriter">
-            <summary>Sets the stub of ConfigurationElement.PreSerialize(XmlWriter writer)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.PropertiesGet">
-            <summary>Sets the stub of ConfigurationElement.get_Properties()</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.Reset(System.Configuration.ConfigurationElement)">
-            <summary>Sets the stub of ConfigurationElement.Reset(ConfigurationElement parentElement)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ResetConfigurationElement">
-            <summary>Sets the stub of ConfigurationElement.Reset(ConfigurationElement parentElement)</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ResetModified">
-            <summary>Sets the stub of ConfigurationSection.ResetModified()</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ResetModified01">
-            <summary>Sets the stub of ConfigurationSection.ResetModified()</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.SerializeElement(System.Xml.XmlWriter,System.Boolean)">
-            <summary>Sets the stub of ConfigurationElement.SerializeElement(XmlWriter writer, Boolean serializeCollectionKey)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.SerializeElementXmlWriterBoolean">
-            <summary>Sets the stub of ConfigurationElement.SerializeElement(XmlWriter writer, Boolean serializeCollectionKey)</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.SerializeSection(System.Configuration.ConfigurationElement,System.String,System.Configuration.ConfigurationSaveMode)">
-            <summary>Sets the stub of ConfigurationSection.SerializeSection(ConfigurationElement parentElement, String name, ConfigurationSaveMode saveMode)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.SerializeSectionConfigurationElementStringConfigurationSaveMode">
-            <summary>Sets the stub of ConfigurationSection.SerializeSection(ConfigurationElement parentElement, String name, ConfigurationSaveMode saveMode)</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.SerializeToXmlElement(System.Xml.XmlWriter,System.String)">
-            <summary>Sets the stub of ConfigurationElement.SerializeToXmlElement(XmlWriter writer, String elementName)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.SerializeToXmlElementXmlWriterString">
-            <summary>Sets the stub of ConfigurationElement.SerializeToXmlElement(XmlWriter writer, String elementName)</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.SetReadOnly">
-            <summary>Sets the stub of ConfigurationElement.SetReadOnly()</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.SetReadOnly01">
-            <summary>Sets the stub of ConfigurationElement.SetReadOnly()</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ShouldSerializeElementInTargetVersion(System.Configuration.ConfigurationElement,System.String,System.Runtime.Versioning.FrameworkName)">
-            <summary>Sets the stub of ConfigurationSection.ShouldSerializeElementInTargetVersion(ConfigurationElement element, String elementName, FrameworkName targetFramework)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ShouldSerializeElementInTargetVersionConfigurationElementStringFrameworkName">
-            <summary>Sets the stub of ConfigurationSection.ShouldSerializeElementInTargetVersion(ConfigurationElement element, String elementName, FrameworkName targetFramework)</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ShouldSerializePropertyInTargetVersion(System.Configuration.ConfigurationProperty,System.String,System.Runtime.Versioning.FrameworkName,System.Configuration.ConfigurationElement)">
-            <summary>Sets the stub of ConfigurationSection.ShouldSerializePropertyInTargetVersion(ConfigurationProperty property, String propertyName, FrameworkName targetFramework, ConfigurationElement parentConfigurationElement)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ShouldSerializePropertyInTargetVersionConfigurationPropertyStringFrameworkNameConfigurationElement">
-            <summary>Sets the stub of ConfigurationSection.ShouldSerializePropertyInTargetVersion(ConfigurationProperty property, String propertyName, FrameworkName targetFramework, ConfigurationElement parentConfigurationElement)</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ShouldSerializeSectionInTargetVersion(System.Runtime.Versioning.FrameworkName)">
-            <summary>Sets the stub of ConfigurationSection.ShouldSerializeSectionInTargetVersion(FrameworkName targetFramework)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ShouldSerializeSectionInTargetVersionFrameworkName">
-            <summary>Sets the stub of ConfigurationSection.ShouldSerializeSectionInTargetVersion(FrameworkName targetFramework)</summary>
-        </member>
-        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.Unmerge(System.Configuration.ConfigurationElement,System.Configuration.ConfigurationElement,System.Configuration.ConfigurationSaveMode)">
-            <summary>Sets the stub of ConfigurationElement.Unmerge(ConfigurationElement sourceElement, ConfigurationElement parentElement, ConfigurationSaveMode saveMode)</summary>
-        </member>
-        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.UnmergeConfigurationElementConfigurationElementConfigurationSaveMode">
-            <summary>Sets the stub of ConfigurationElement.Unmerge(ConfigurationElement sourceElement, ConfigurationElement parentElement, ConfigurationSaveMode saveMode)</summary>
-        </member>
         <member name="P:WebAPIToWADL.Configuration.Fakes.StubConfiguration.CallBase">
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
-        </member>
-        <member name="P:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ElementProperty">
-            <summary>Sets the stub of ConfigurationElement.get_ElementProperty()</summary>
         </member>
         <member name="P:WebAPIToWADL.Configuration.Fakes.StubConfiguration.InstanceBehavior">
             <summary>Gets or sets the instance behavior.</summary>
         </member>
         <member name="P:WebAPIToWADL.Configuration.Fakes.StubConfiguration.InstanceObserver">
             <summary>Gets or sets the instance observer.</summary>
-        </member>
-        <member name="P:WebAPIToWADL.Configuration.Fakes.StubConfiguration.Properties">
-            <summary>Sets the stub of ConfigurationElement.get_Properties()</summary>
         </member>
         <member name="T:WebAPIToWADL.Configuration.Fakes.StubIConfiguration">
             <summary>Stub type of WebAPIToWADL.Configuration.IConfiguration</summary>
