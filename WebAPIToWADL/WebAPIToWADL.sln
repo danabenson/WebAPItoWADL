@@ -1,7 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPITest", "WebAPIExample\WebAPIExample.csproj", "{BB0A47F4-8A49-45AD-9801-8B9282E15557}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIToWADL", "WebAPIToWADL\WebAPIToWADL.csproj", "{C51E48FE-3F12-420C-83B5-2181214C4170}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIToWADL.Tests", "WebAPIToWADL.Tests\WebAPIToWADL.Tests.csproj", "{64E085B4-E77B-4474-9908-7149DBBCA408}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB0A47F4-8A49-45AD-9801-8B9282E15557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0A47F4-8A49-45AD-9801-8B9282E15557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0A47F4-8A49-45AD-9801-8B9282E15557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB0A47F4-8A49-45AD-9801-8B9282E15557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51E48FE-3F12-420C-83B5-2181214C4170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51E48FE-3F12-420C-83B5-2181214C4170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51E48FE-3F12-420C-83B5-2181214C4170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51E48FE-3F12-420C-83B5-2181214C4170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64E085B4-E77B-4474-9908-7149DBBCA408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E085B4-E77B-4474-9908-7149DBBCA408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E085B4-E77B-4474-9908-7149DBBCA408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E085B4-E77B-4474-9908-7149DBBCA408}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
