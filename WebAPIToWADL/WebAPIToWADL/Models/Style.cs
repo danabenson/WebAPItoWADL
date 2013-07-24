@@ -1,16 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml;
-
-namespace WebAPIToWADL.Models
+﻿namespace WebAPIToWADL.Models
 {
     public enum Style
     {
+        Matrix,
+
+        Header,
+
         Query,
 
-        Request
+        Template,
+
+        Request,
+
+        Plain
     }
 }

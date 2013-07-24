@@ -2,6 +2,7 @@
 using System.Web.Http.Description;
 using System.Xml;
 using System.Xml.Serialization;
+using WebAPIToWADL.Configuration;
 using WebAPIToWADL.Models;
 
 namespace WebAPIToWADL
@@ -11,7 +12,9 @@ namespace WebAPIToWADL
         private readonly IApiExplorer _apiExplorer;
         private readonly IConvertApiDescriptionsToModel _convertToModel;
 
-        public WADLProvider(IApiExplorer apiExplorer, IConvertApiDescriptionsToModel convertToModel)
+        public WADLProvider(
+            IApiExplorer apiExplorer, 
+            IConvertApiDescriptionsToModel convertToModel)
         {
             _apiExplorer = apiExplorer;
             _convertToModel = convertToModel;

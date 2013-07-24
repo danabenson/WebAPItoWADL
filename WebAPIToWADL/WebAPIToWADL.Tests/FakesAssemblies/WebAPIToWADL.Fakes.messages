@@ -1,6 +1,7 @@
 C:\GitHub\WebAPItoWADL\WebAPIToWADL\WebAPIToWADL.Tests\Fakes\WebAPIToWADL.fakes : warning : Cannot generate stub for WebAPIToWADL.Models.HttpMethod: type is a value type.
 C:\GitHub\WebAPItoWADL\WebAPIToWADL\WebAPIToWADL.Tests\Fakes\WebAPIToWADL.fakes : warning : Cannot generate stub for WebAPIToWADL.Models.ParamType: type is a value type.
 C:\GitHub\WebAPItoWADL\WebAPIToWADL\WebAPIToWADL.Tests\Fakes\WebAPIToWADL.fakes : warning : Cannot generate stub for WebAPIToWADL.Models.Style: type is a value type.
+C:\GitHub\WebAPItoWADL\WebAPIToWADL\WebAPIToWADL.Tests\Fakes\WebAPIToWADL.fakes : warning : Cannot generate shim for WebAPIToWADL.Configuration.IConfiguration: type is an interface.
 C:\GitHub\WebAPItoWADL\WebAPIToWADL\WebAPIToWADL.Tests\Fakes\WebAPIToWADL.fakes : warning : Cannot generate shim for WebAPIToWADL.IConvertApiDescriptionsToModel: type is an interface.
 C:\GitHub\WebAPItoWADL\WebAPIToWADL\WebAPIToWADL.Tests\Fakes\WebAPIToWADL.fakes : warning : Cannot generate shim for WebAPIToWADL.IWADLProvider: type is an interface.
 C:\GitHub\WebAPItoWADL\WebAPIToWADL\WebAPIToWADL.Tests\Fakes\WebAPIToWADL.fakes : warning : Cannot generate shim for WebAPIToWADL.Models.HttpMethod: type is an enum.

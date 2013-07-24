@@ -4,6 +4,246 @@
         <name>WebAPIToWADL.Fakes</name>
     </assembly>
     <members>
+        <member name="T:WebAPIToWADL.Configuration.Fakes.ShimConfiguration">
+            <summary>Shim type of WebAPIToWADL.Configuration.Configuration</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.ShimConfiguration.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.ShimConfiguration.#ctor(WebAPIToWADL.Configuration.Configuration)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.ShimConfiguration.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.ShimConfiguration.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Configuration.Fakes.ShimConfiguration.BaseURIGet">
+            <summary>Sets the shim of Configuration.get_BaseURI()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Configuration.Fakes.ShimConfiguration.BaseURISetString">
+            <summary>Sets the shim of Configuration.set_BaseURI(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Configuration.Fakes.ShimConfiguration.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Configuration.Fakes.ShimConfiguration.Constructor">
+            <summary>Sets the shim of Configuration.Configuration()</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Configuration.Fakes.ShimConfiguration.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Configuration.Fakes.ShimConfiguration.AllInstances.BaseURIGet">
+            <summary>Sets the shim of Configuration.get_BaseURI()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Configuration.Fakes.ShimConfiguration.AllInstances.BaseURISetString">
+            <summary>Sets the shim of Configuration.set_BaseURI(String value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Configuration.Fakes.StubConfiguration">
+            <summary>Stub type of WebAPIToWADL.Configuration.Configuration</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>Sets the stub of ConfigurationElement.DeserializeElement(XmlReader reader, Boolean serializeCollectionKey)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.DeserializeElementXmlReaderBoolean">
+            <summary>Sets the stub of ConfigurationElement.DeserializeElement(XmlReader reader, Boolean serializeCollectionKey)</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.DeserializeSection(System.Xml.XmlReader)">
+            <summary>Sets the stub of ConfigurationSection.DeserializeSection(XmlReader reader)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.DeserializeSectionXmlReader">
+            <summary>Sets the stub of ConfigurationSection.DeserializeSection(XmlReader reader)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ElementPropertyGet">
+            <summary>Sets the stub of ConfigurationElement.get_ElementProperty()</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.Equals(System.Object)">
+            <summary>Sets the stub of ConfigurationElement.Equals(Object compareTo)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.EqualsObject">
+            <summary>Sets the stub of ConfigurationElement.Equals(Object compareTo)</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.GetHashCode">
+            <summary>Sets the stub of ConfigurationElement.GetHashCode()</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.GetHashCode01">
+            <summary>Sets the stub of ConfigurationElement.GetHashCode()</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.GetRuntimeObject">
+            <summary>Sets the stub of ConfigurationSection.GetRuntimeObject()</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.GetRuntimeObject01">
+            <summary>Sets the stub of ConfigurationSection.GetRuntimeObject()</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.GetTransformedAssemblyString(System.String)">
+            <summary>Sets the stub of ConfigurationElement.GetTransformedAssemblyString(String assemblyName)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.GetTransformedAssemblyStringString">
+            <summary>Sets the stub of ConfigurationElement.GetTransformedAssemblyString(String assemblyName)</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.GetTransformedTypeString(System.String)">
+            <summary>Sets the stub of ConfigurationElement.GetTransformedTypeString(String typeName)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.GetTransformedTypeStringString">
+            <summary>Sets the stub of ConfigurationElement.GetTransformedTypeString(String typeName)</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.Init">
+            <summary>Sets the stub of ConfigurationElement.Init()</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.Init01">
+            <summary>Sets the stub of ConfigurationElement.Init()</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.InitializeDefault">
+            <summary>Sets the stub of ConfigurationElement.InitializeDefault()</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.InitializeDefault01">
+            <summary>Sets the stub of ConfigurationElement.InitializeDefault()</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.InitializeStub">
+            <summary>Initializes a new instance of type StubConfiguration</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.IsModified">
+            <summary>Sets the stub of ConfigurationSection.IsModified()</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.IsModified01">
+            <summary>Sets the stub of ConfigurationSection.IsModified()</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.IsReadOnly">
+            <summary>Sets the stub of ConfigurationElement.IsReadOnly()</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.IsReadOnly01">
+            <summary>Sets the stub of ConfigurationElement.IsReadOnly()</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ListErrors(System.Collections.IList)">
+            <summary>Sets the stub of ConfigurationElement.ListErrors(IList errorList)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ListErrorsIList">
+            <summary>Sets the stub of ConfigurationElement.ListErrors(IList errorList)</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.OnDeserializeUnrecognizedAttribute(System.String,System.String)">
+            <summary>Sets the stub of ConfigurationElement.OnDeserializeUnrecognizedAttribute(String name, String value)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.OnDeserializeUnrecognizedAttributeStringString">
+            <summary>Sets the stub of ConfigurationElement.OnDeserializeUnrecognizedAttribute(String name, String value)</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.OnDeserializeUnrecognizedElement(System.String,System.Xml.XmlReader)">
+            <summary>Sets the stub of ConfigurationElement.OnDeserializeUnrecognizedElement(String elementName, XmlReader reader)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.OnDeserializeUnrecognizedElementStringXmlReader">
+            <summary>Sets the stub of ConfigurationElement.OnDeserializeUnrecognizedElement(String elementName, XmlReader reader)</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.OnRequiredPropertyNotFound(System.String)">
+            <summary>Sets the stub of ConfigurationElement.OnRequiredPropertyNotFound(String name)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.OnRequiredPropertyNotFoundString">
+            <summary>Sets the stub of ConfigurationElement.OnRequiredPropertyNotFound(String name)</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.PostDeserialize">
+            <summary>Sets the stub of ConfigurationElement.PostDeserialize()</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.PostDeserialize01">
+            <summary>Sets the stub of ConfigurationElement.PostDeserialize()</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.PreSerialize(System.Xml.XmlWriter)">
+            <summary>Sets the stub of ConfigurationElement.PreSerialize(XmlWriter writer)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.PreSerializeXmlWriter">
+            <summary>Sets the stub of ConfigurationElement.PreSerialize(XmlWriter writer)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.PropertiesGet">
+            <summary>Sets the stub of ConfigurationElement.get_Properties()</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.Reset(System.Configuration.ConfigurationElement)">
+            <summary>Sets the stub of ConfigurationElement.Reset(ConfigurationElement parentElement)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ResetConfigurationElement">
+            <summary>Sets the stub of ConfigurationElement.Reset(ConfigurationElement parentElement)</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ResetModified">
+            <summary>Sets the stub of ConfigurationSection.ResetModified()</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ResetModified01">
+            <summary>Sets the stub of ConfigurationSection.ResetModified()</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.SerializeElement(System.Xml.XmlWriter,System.Boolean)">
+            <summary>Sets the stub of ConfigurationElement.SerializeElement(XmlWriter writer, Boolean serializeCollectionKey)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.SerializeElementXmlWriterBoolean">
+            <summary>Sets the stub of ConfigurationElement.SerializeElement(XmlWriter writer, Boolean serializeCollectionKey)</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.SerializeSection(System.Configuration.ConfigurationElement,System.String,System.Configuration.ConfigurationSaveMode)">
+            <summary>Sets the stub of ConfigurationSection.SerializeSection(ConfigurationElement parentElement, String name, ConfigurationSaveMode saveMode)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.SerializeSectionConfigurationElementStringConfigurationSaveMode">
+            <summary>Sets the stub of ConfigurationSection.SerializeSection(ConfigurationElement parentElement, String name, ConfigurationSaveMode saveMode)</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.SerializeToXmlElement(System.Xml.XmlWriter,System.String)">
+            <summary>Sets the stub of ConfigurationElement.SerializeToXmlElement(XmlWriter writer, String elementName)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.SerializeToXmlElementXmlWriterString">
+            <summary>Sets the stub of ConfigurationElement.SerializeToXmlElement(XmlWriter writer, String elementName)</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.SetReadOnly">
+            <summary>Sets the stub of ConfigurationElement.SetReadOnly()</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.SetReadOnly01">
+            <summary>Sets the stub of ConfigurationElement.SetReadOnly()</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ShouldSerializeElementInTargetVersion(System.Configuration.ConfigurationElement,System.String,System.Runtime.Versioning.FrameworkName)">
+            <summary>Sets the stub of ConfigurationSection.ShouldSerializeElementInTargetVersion(ConfigurationElement element, String elementName, FrameworkName targetFramework)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ShouldSerializeElementInTargetVersionConfigurationElementStringFrameworkName">
+            <summary>Sets the stub of ConfigurationSection.ShouldSerializeElementInTargetVersion(ConfigurationElement element, String elementName, FrameworkName targetFramework)</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ShouldSerializePropertyInTargetVersion(System.Configuration.ConfigurationProperty,System.String,System.Runtime.Versioning.FrameworkName,System.Configuration.ConfigurationElement)">
+            <summary>Sets the stub of ConfigurationSection.ShouldSerializePropertyInTargetVersion(ConfigurationProperty property, String propertyName, FrameworkName targetFramework, ConfigurationElement parentConfigurationElement)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ShouldSerializePropertyInTargetVersionConfigurationPropertyStringFrameworkNameConfigurationElement">
+            <summary>Sets the stub of ConfigurationSection.ShouldSerializePropertyInTargetVersion(ConfigurationProperty property, String propertyName, FrameworkName targetFramework, ConfigurationElement parentConfigurationElement)</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ShouldSerializeSectionInTargetVersion(System.Runtime.Versioning.FrameworkName)">
+            <summary>Sets the stub of ConfigurationSection.ShouldSerializeSectionInTargetVersion(FrameworkName targetFramework)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ShouldSerializeSectionInTargetVersionFrameworkName">
+            <summary>Sets the stub of ConfigurationSection.ShouldSerializeSectionInTargetVersion(FrameworkName targetFramework)</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubConfiguration.Unmerge(System.Configuration.ConfigurationElement,System.Configuration.ConfigurationElement,System.Configuration.ConfigurationSaveMode)">
+            <summary>Sets the stub of ConfigurationElement.Unmerge(ConfigurationElement sourceElement, ConfigurationElement parentElement, ConfigurationSaveMode saveMode)</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubConfiguration.UnmergeConfigurationElementConfigurationElementConfigurationSaveMode">
+            <summary>Sets the stub of ConfigurationElement.Unmerge(ConfigurationElement sourceElement, ConfigurationElement parentElement, ConfigurationSaveMode saveMode)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Configuration.Fakes.StubConfiguration.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Configuration.Fakes.StubConfiguration.ElementProperty">
+            <summary>Sets the stub of ConfigurationElement.get_ElementProperty()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Configuration.Fakes.StubConfiguration.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Configuration.Fakes.StubConfiguration.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Configuration.Fakes.StubConfiguration.Properties">
+            <summary>Sets the stub of ConfigurationElement.get_Properties()</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Configuration.Fakes.StubIConfiguration">
+            <summary>Stub type of WebAPIToWADL.Configuration.IConfiguration</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Configuration.Fakes.StubIConfiguration.#ctor">
+            <summary>Initializes a new instance of type StubIConfiguration</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Configuration.Fakes.StubIConfiguration.BaseURIGet">
+            <summary>Sets the stub of IConfiguration.get_BaseURI()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Configuration.Fakes.StubIConfiguration.wapitwadl::WebAPIToWADL#Configuration#IConfiguration#BaseURI">
+            <summary>Sets the stub of IConfiguration.get_BaseURI()</summary>
+        </member>
         <member name="T:WebAPIToWADL.Fakes.ShimConvertApiDescriptionsToModel">
             <summary>Shim type of WebAPIToWADL.ConvertApiDescriptionsToModel</summary>
         </member>
@@ -25,8 +265,8 @@
         <member name="P:WebAPIToWADL.Fakes.ShimConvertApiDescriptionsToModel.Behavior">
             <summary>Assigns the behavior for all methods of the shimmed type</summary>
         </member>
-        <member name="P:WebAPIToWADL.Fakes.ShimConvertApiDescriptionsToModel.Constructor">
-            <summary>Sets the shim of ConvertApiDescriptionsToModel.ConvertApiDescriptionsToModel()</summary>
+        <member name="P:WebAPIToWADL.Fakes.ShimConvertApiDescriptionsToModel.ConstructorIConfiguration">
+            <summary>Sets the shim of ConvertApiDescriptionsToModel.ConvertApiDescriptionsToModel(IConfiguration config)</summary>
         </member>
         <member name="P:WebAPIToWADL.Fakes.ShimConvertApiDescriptionsToModel.ExecuteICollectionOfApiDescription">
             <summary>Sets the shim of ConvertApiDescriptionsToModel.Execute(ICollection`1&lt;ApiDescription&gt; descriptions)</summary>
@@ -64,6 +304,9 @@
         <member name="P:WebAPIToWADL.Fakes.ShimWADLProvider.Get">
             <summary>Sets the shim of WADLProvider.Get()</summary>
         </member>
+        <member name="P:WebAPIToWADL.Fakes.ShimWADLProvider.GetNamespaces">
+            <summary>Sets the shim of WADLProvider.GetNamespaces()</summary>
+        </member>
         <member name="P:WebAPIToWADL.Fakes.ShimWADLProvider.GetXmlDocumentString">
             <summary>Sets the shim of WADLProvider.GetXmlDocument(String xml)</summary>
         </member>
@@ -76,6 +319,9 @@
         <member name="P:WebAPIToWADL.Fakes.ShimWADLProvider.AllInstances.Get">
             <summary>Sets the shim of WADLProvider.Get()</summary>
         </member>
+        <member name="P:WebAPIToWADL.Fakes.ShimWADLProvider.AllInstances.GetNamespaces">
+            <summary>Sets the shim of WADLProvider.GetNamespaces()</summary>
+        </member>
         <member name="P:WebAPIToWADL.Fakes.ShimWADLProvider.AllInstances.GetXmlDocumentString">
             <summary>Sets the shim of WADLProvider.GetXmlDocument(String xml)</summary>
         </member>
@@ -85,7 +331,7 @@
         <member name="T:WebAPIToWADL.Fakes.StubConvertApiDescriptionsToModel">
             <summary>Stub type of WebAPIToWADL.ConvertApiDescriptionsToModel</summary>
         </member>
-        <member name="M:WebAPIToWADL.Fakes.StubConvertApiDescriptionsToModel.#ctor">
+        <member name="M:WebAPIToWADL.Fakes.StubConvertApiDescriptionsToModel.#ctor(WebAPIToWADL.Configuration.IConfiguration)">
             <summary>Initializes a new instance</summary>
         </member>
         <member name="M:WebAPIToWADL.Fakes.StubConvertApiDescriptionsToModel.InitializeStub">
@@ -310,6 +556,66 @@
         <member name="P:WebAPIToWADL.Models.Fakes.ShimInclude.AllInstances.HrefSetString">
             <summary>Sets the shim of Include.set_Href(String value)</summary>
         </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimLink">
+            <summary>Shim type of WebAPIToWADL.Models.Link</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimLink.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimLink.#ctor(WebAPIToWADL.Models.Link)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimLink.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimLink.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimLink.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimLink.Constructor">
+            <summary>Sets the shim of Link.Link()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimLink.RelGet">
+            <summary>Sets the shim of Link.get_Rel()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimLink.RelSetString">
+            <summary>Sets the shim of Link.set_Rel(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimLink.ResourceTypeGet">
+            <summary>Sets the shim of Link.get_ResourceType()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimLink.ResourceTypeSetString">
+            <summary>Sets the shim of Link.set_ResourceType(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimLink.RevGet">
+            <summary>Sets the shim of Link.get_Rev()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimLink.RevSetString">
+            <summary>Sets the shim of Link.set_Rev(String value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimLink.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimLink.AllInstances.RelGet">
+            <summary>Sets the shim of Link.get_Rel()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimLink.AllInstances.RelSetString">
+            <summary>Sets the shim of Link.set_Rel(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimLink.AllInstances.ResourceTypeGet">
+            <summary>Sets the shim of Link.get_ResourceType()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimLink.AllInstances.ResourceTypeSetString">
+            <summary>Sets the shim of Link.set_ResourceType(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimLink.AllInstances.RevGet">
+            <summary>Sets the shim of Link.get_Rev()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimLink.AllInstances.RevSetString">
+            <summary>Sets the shim of Link.set_Rev(String value)</summary>
+        </member>
         <member name="T:WebAPIToWADL.Models.Fakes.ShimMethod">
             <summary>Shim type of WebAPIToWADL.Models.Method</summary>
         </member>
@@ -403,6 +709,12 @@
         <member name="P:WebAPIToWADL.Models.Fakes.ShimOption.Constructor">
             <summary>Sets the shim of Option.Option()</summary>
         </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimOption.MediaTypeGet">
+            <summary>Sets the shim of Option.get_MediaType()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimOption.MediaTypeSetString">
+            <summary>Sets the shim of Option.set_MediaType(String value)</summary>
+        </member>
         <member name="P:WebAPIToWADL.Models.Fakes.ShimOption.ValueGet">
             <summary>Sets the shim of Option.get_Value()</summary>
         </member>
@@ -411,6 +723,12 @@
         </member>
         <member name="T:WebAPIToWADL.Models.Fakes.ShimOption.AllInstances">
             <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimOption.AllInstances.MediaTypeGet">
+            <summary>Sets the shim of Option.get_MediaType()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimOption.AllInstances.MediaTypeSetString">
+            <summary>Sets the shim of Option.set_MediaType(String value)</summary>
         </member>
         <member name="P:WebAPIToWADL.Models.Fakes.ShimOption.AllInstances.ValueGet">
             <summary>Sets the shim of Option.get_Value()</summary>
@@ -451,6 +769,30 @@
         <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.DocumentationsSetListOfDocumentation">
             <summary>Sets the shim of Parameter.set_Documentations(List`1&lt;Documentation&gt; value)</summary>
         </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.FixedGet">
+            <summary>Sets the shim of Parameter.get_Fixed()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.FixedSetString">
+            <summary>Sets the shim of Parameter.set_Fixed(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.HrefGet">
+            <summary>Sets the shim of Parameter.get_Href()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.HrefSetString">
+            <summary>Sets the shim of Parameter.set_Href(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.IdGet">
+            <summary>Sets the shim of Parameter.get_Id()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.IdSetString">
+            <summary>Sets the shim of Parameter.set_Id(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.LinkGet">
+            <summary>Sets the shim of Parameter.get_Link()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.LinkSetLink">
+            <summary>Sets the shim of Parameter.set_Link(Link value)</summary>
+        </member>
         <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.NameGet">
             <summary>Sets the shim of Parameter.get_Name()</summary>
         </member>
@@ -463,11 +805,11 @@
         <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.OptionsSetListOfOption">
             <summary>Sets the shim of Parameter.set_Options(List`1&lt;Option&gt; value)</summary>
         </member>
-        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.ParamTypeGet">
-            <summary>Sets the shim of Parameter.get_ParamType()</summary>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.RepeatingGet">
+            <summary>Sets the shim of Parameter.get_Repeating()</summary>
         </member>
-        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.ParamTypeSetParamType">
-            <summary>Sets the shim of Parameter.set_ParamType(ParamType value)</summary>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.RepeatingSetBoolean">
+            <summary>Sets the shim of Parameter.set_Repeating(Boolean value)</summary>
         </member>
         <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.RequiredGet">
             <summary>Sets the shim of Parameter.get_Required()</summary>
@@ -480,6 +822,12 @@
         </member>
         <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.StyleSetStyle">
             <summary>Sets the shim of Parameter.set_Style(Style value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.TypeGet">
+            <summary>Sets the shim of Parameter.get_Type()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.TypeSetParamType">
+            <summary>Sets the shim of Parameter.set_Type(ParamType value)</summary>
         </member>
         <member name="T:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances">
             <summary>Define shims for all instances members</summary>
@@ -496,6 +844,30 @@
         <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.DocumentationsSetListOfDocumentation">
             <summary>Sets the shim of Parameter.set_Documentations(List`1&lt;Documentation&gt; value)</summary>
         </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.FixedGet">
+            <summary>Sets the shim of Parameter.get_Fixed()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.FixedSetString">
+            <summary>Sets the shim of Parameter.set_Fixed(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.HrefGet">
+            <summary>Sets the shim of Parameter.get_Href()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.HrefSetString">
+            <summary>Sets the shim of Parameter.set_Href(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.IdGet">
+            <summary>Sets the shim of Parameter.get_Id()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.IdSetString">
+            <summary>Sets the shim of Parameter.set_Id(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.LinkGet">
+            <summary>Sets the shim of Parameter.get_Link()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.LinkSetLink">
+            <summary>Sets the shim of Parameter.set_Link(Link value)</summary>
+        </member>
         <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.NameGet">
             <summary>Sets the shim of Parameter.get_Name()</summary>
         </member>
@@ -508,11 +880,11 @@
         <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.OptionsSetListOfOption">
             <summary>Sets the shim of Parameter.set_Options(List`1&lt;Option&gt; value)</summary>
         </member>
-        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.ParamTypeGet">
-            <summary>Sets the shim of Parameter.get_ParamType()</summary>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.RepeatingGet">
+            <summary>Sets the shim of Parameter.get_Repeating()</summary>
         </member>
-        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.ParamTypeSetParamType">
-            <summary>Sets the shim of Parameter.set_ParamType(ParamType value)</summary>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.RepeatingSetBoolean">
+            <summary>Sets the shim of Parameter.set_Repeating(Boolean value)</summary>
         </member>
         <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.RequiredGet">
             <summary>Sets the shim of Parameter.get_Required()</summary>
@@ -525,6 +897,12 @@
         </member>
         <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.StyleSetStyle">
             <summary>Sets the shim of Parameter.set_Style(Style value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.TypeGet">
+            <summary>Sets the shim of Parameter.get_Type()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.TypeSetParamType">
+            <summary>Sets the shim of Parameter.set_Type(ParamType value)</summary>
         </member>
         <member name="T:WebAPIToWADL.Models.Fakes.ShimRepresentation">
             <summary>Shim type of WebAPIToWADL.Models.Representation</summary>
@@ -547,11 +925,23 @@
         <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.Constructor">
             <summary>Sets the shim of Representation.Representation()</summary>
         </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.DocumentationsGet">
+            <summary>Sets the shim of Representation.get_Documentations()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.DocumentationsSetListOfDocumentation">
+            <summary>Sets the shim of Representation.set_Documentations(List`1&lt;Documentation&gt; value)</summary>
+        </member>
         <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.ElementGet">
             <summary>Sets the shim of Representation.get_Element()</summary>
         </member>
         <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.ElementSetString">
             <summary>Sets the shim of Representation.set_Element(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.IdGet">
+            <summary>Sets the shim of Representation.get_Id()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.IdSetString">
+            <summary>Sets the shim of Representation.set_Id(String value)</summary>
         </member>
         <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.MediaTypeGet">
             <summary>Sets the shim of Representation.get_MediaType()</summary>
@@ -559,8 +949,26 @@
         <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.MediaTypeSetString">
             <summary>Sets the shim of Representation.set_MediaType(String value)</summary>
         </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.ParameterGet">
+            <summary>Sets the shim of Representation.get_Parameter()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.ParameterSetParameter">
+            <summary>Sets the shim of Representation.set_Parameter(Parameter value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.ProfileGet">
+            <summary>Sets the shim of Representation.get_Profile()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.ProfileSetString">
+            <summary>Sets the shim of Representation.set_Profile(String value)</summary>
+        </member>
         <member name="T:WebAPIToWADL.Models.Fakes.ShimRepresentation.AllInstances">
             <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.AllInstances.DocumentationsGet">
+            <summary>Sets the shim of Representation.get_Documentations()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.AllInstances.DocumentationsSetListOfDocumentation">
+            <summary>Sets the shim of Representation.set_Documentations(List`1&lt;Documentation&gt; value)</summary>
         </member>
         <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.AllInstances.ElementGet">
             <summary>Sets the shim of Representation.get_Element()</summary>
@@ -568,11 +976,29 @@
         <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.AllInstances.ElementSetString">
             <summary>Sets the shim of Representation.set_Element(String value)</summary>
         </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.AllInstances.IdGet">
+            <summary>Sets the shim of Representation.get_Id()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.AllInstances.IdSetString">
+            <summary>Sets the shim of Representation.set_Id(String value)</summary>
+        </member>
         <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.AllInstances.MediaTypeGet">
             <summary>Sets the shim of Representation.get_MediaType()</summary>
         </member>
         <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.AllInstances.MediaTypeSetString">
             <summary>Sets the shim of Representation.set_MediaType(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.AllInstances.ParameterGet">
+            <summary>Sets the shim of Representation.get_Parameter()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.AllInstances.ParameterSetParameter">
+            <summary>Sets the shim of Representation.set_Parameter(Parameter value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.AllInstances.ProfileGet">
+            <summary>Sets the shim of Representation.get_Profile()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.AllInstances.ProfileSetString">
+            <summary>Sets the shim of Representation.set_Profile(String value)</summary>
         </member>
         <member name="T:WebAPIToWADL.Models.Fakes.ShimRequest">
             <summary>Shim type of WebAPIToWADL.Models.Request</summary>
@@ -956,6 +1382,24 @@
             <summary>Gets or sets the instance behavior.</summary>
         </member>
         <member name="P:WebAPIToWADL.Models.Fakes.StubInclude.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.StubLink">
+            <summary>Stub type of WebAPIToWADL.Models.Link</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubLink.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubLink.InitializeStub">
+            <summary>Initializes a new instance of type StubLink</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubLink.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubLink.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubLink.InstanceObserver">
             <summary>Gets or sets the instance observer.</summary>
         </member>
         <member name="T:WebAPIToWADL.Models.Fakes.StubMethod">
