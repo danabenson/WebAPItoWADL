@@ -31,11 +31,17 @@ namespace WebAPIToWADL
             using (var ms = new MemoryStream())
             {
                 var xw = new StreamWriter(ms);
-                serialer.Serialize(ms, app);
-                xw.Flush();
+                serialer.Serialize(ms, app, GetNamespaces());
+                ms.Seek(0, SeekOrigin.Begin);
                 var sr = new StreamReader(ms);
                 return sr.ReadToEnd();
             }
+        }
+
+        private XmlSerializerNamespaces GetNamespaces()
+        {
+            var ns = new XmlSerializerNamespaces();
+            return ns;
         }
 
         private XmlDocument GetXmlDocument(string xml)
