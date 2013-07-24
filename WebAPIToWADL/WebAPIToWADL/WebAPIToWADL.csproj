@@ -50,6 +50,7 @@
     <Compile Include="Models\ParamType.cs" />
     <Compile Include="Models\Representation.cs" />
     <Compile Include="Models\Resource.cs" />
+    <Compile Include="Models\ResourcesCollection.cs" />
     <Compile Include="Models\Response.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

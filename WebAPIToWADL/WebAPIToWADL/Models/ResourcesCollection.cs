@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace WebAPIToWADL.Models
 {
-    public class Application
+    public class ResourcesCollection : List<Resource>
     {
-        public ResourcesCollection Resources { get; set; }
-
-        public Grammars Grammars { get; set; }
+        public string Base { get; set; }
     }
 }
