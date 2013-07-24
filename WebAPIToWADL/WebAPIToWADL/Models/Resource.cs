@@ -5,7 +5,6 @@ namespace WebAPIToWADL.Models
 {
     public class Resource
     {
-
         [XmlAttribute("id")]
         public string Id { get; set; }
 
@@ -18,13 +17,16 @@ namespace WebAPIToWADL.Models
         [XmlAttribute("querytype")]
         public string QueryType { get; set; }
 
+        [XmlElement("method")]
         public List<Method> Methods { get; set; }
 
+        [XmlElement("resource")]
         public List<Resource> SubResources { get; set; }
 
         [XmlElement("param")]
         public List<Parameter> Parameters { get; set; }
 
+        [XmlElement("doc")]
         public List<Documentation> Documentations { get; set; }
     }
 }

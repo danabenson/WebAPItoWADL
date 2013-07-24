@@ -15,7 +15,6 @@ namespace WebAPIToWADL.Models
         [XmlElement("representation")]
         public List<Representation> Representations { get; set; }
 
-        //style will be "header"
         [XmlElement("param")]
         public List<Parameter> Parameters { get; set; }
     }
