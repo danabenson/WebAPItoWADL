@@ -1,15 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Xml.Serialization;
 
 namespace WebAPIToWADL.Models
 {
     public class Method
     {
+        [XmlAttribute("id")]
         public string Id { get; set; }
 
+        [XmlAttribute("name")]
         public HttpMethod HttpMethod { get; set; }
+
+        [XmlElement("request")]
+        public Request Request { get; set; }
+
+        [XmlElement("response")]
+        public List<Response> Responses { get; set; }
     }
 }

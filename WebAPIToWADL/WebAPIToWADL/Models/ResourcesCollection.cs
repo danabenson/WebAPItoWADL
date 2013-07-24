@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Xml.Serialization;
 
 namespace WebAPIToWADL.Models
 {
     public class ResourcesCollection : List<Resource>
     {
+        [XmlAttribute("base")]
         public string Base { get; set; }
     }
 }

@@ -1,0 +1,1106 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPIToWADL.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:WebAPIToWADL.Fakes.ShimConvertApiDescriptionsToModel">
+            <summary>Shim type of WebAPIToWADL.ConvertApiDescriptionsToModel</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Fakes.ShimConvertApiDescriptionsToModel.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Fakes.ShimConvertApiDescriptionsToModel.#ctor(WebAPIToWADL.ConvertApiDescriptionsToModel)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Fakes.ShimConvertApiDescriptionsToModel.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Fakes.ShimConvertApiDescriptionsToModel.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Fakes.ShimConvertApiDescriptionsToModel.Bind(WebAPIToWADL.IConvertApiDescriptionsToModel)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Fakes.ShimConvertApiDescriptionsToModel.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Fakes.ShimConvertApiDescriptionsToModel.Constructor">
+            <summary>Sets the shim of ConvertApiDescriptionsToModel.ConvertApiDescriptionsToModel()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Fakes.ShimConvertApiDescriptionsToModel.ExecuteICollectionOfApiDescription">
+            <summary>Sets the shim of ConvertApiDescriptionsToModel.Execute(ICollection`1&lt;ApiDescription&gt; descriptions)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Fakes.ShimConvertApiDescriptionsToModel.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Fakes.ShimConvertApiDescriptionsToModel.AllInstances.ExecuteICollectionOfApiDescription">
+            <summary>Sets the shim of ConvertApiDescriptionsToModel.Execute(ICollection`1&lt;ApiDescription&gt; descriptions)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Fakes.ShimWADLProvider">
+            <summary>Shim type of WebAPIToWADL.WADLProvider</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Fakes.ShimWADLProvider.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Fakes.ShimWADLProvider.#ctor(WebAPIToWADL.WADLProvider)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Fakes.ShimWADLProvider.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Fakes.ShimWADLProvider.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Fakes.ShimWADLProvider.Bind(WebAPIToWADL.IWADLProvider)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Fakes.ShimWADLProvider.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Fakes.ShimWADLProvider.ConstructorIApiExplorerIConvertApiDescriptionsToModel">
+            <summary>Sets the shim of WADLProvider.WADLProvider(IApiExplorer apiExplorer, IConvertApiDescriptionsToModel convertToModel)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Fakes.ShimWADLProvider.Get">
+            <summary>Sets the shim of WADLProvider.Get()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Fakes.ShimWADLProvider.GetXmlDocumentString">
+            <summary>Sets the shim of WADLProvider.GetXmlDocument(String xml)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Fakes.ShimWADLProvider.SerializeApplication">
+            <summary>Sets the shim of WADLProvider.Serialize(Application app)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Fakes.ShimWADLProvider.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Fakes.ShimWADLProvider.AllInstances.Get">
+            <summary>Sets the shim of WADLProvider.Get()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Fakes.ShimWADLProvider.AllInstances.GetXmlDocumentString">
+            <summary>Sets the shim of WADLProvider.GetXmlDocument(String xml)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Fakes.ShimWADLProvider.AllInstances.SerializeApplication">
+            <summary>Sets the shim of WADLProvider.Serialize(Application app)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Fakes.StubConvertApiDescriptionsToModel">
+            <summary>Stub type of WebAPIToWADL.ConvertApiDescriptionsToModel</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Fakes.StubConvertApiDescriptionsToModel.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Fakes.StubConvertApiDescriptionsToModel.InitializeStub">
+            <summary>Initializes a new instance of type StubConvertApiDescriptionsToModel</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Fakes.StubConvertApiDescriptionsToModel.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Fakes.StubConvertApiDescriptionsToModel.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Fakes.StubConvertApiDescriptionsToModel.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Fakes.StubIConvertApiDescriptionsToModel">
+            <summary>Stub type of WebAPIToWADL.IConvertApiDescriptionsToModel</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Fakes.StubIConvertApiDescriptionsToModel.#ctor">
+            <summary>Initializes a new instance of type StubIConvertApiDescriptionsToModel</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Fakes.StubIConvertApiDescriptionsToModel.ExecuteICollectionOfApiDescription">
+            <summary>Sets the stub of IConvertApiDescriptionsToModel.Execute(ICollection`1&lt;ApiDescription&gt; descriptions)</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Fakes.StubIConvertApiDescriptionsToModel.wapitwadl::WebAPIToWADL#IConvertApiDescriptionsToModel#Execute(System.Collections.Generic.ICollection{System.Web.Http.Description.ApiDescription})">
+            <summary>Sets the stub of IConvertApiDescriptionsToModel.Execute(ICollection`1&lt;ApiDescription&gt; descriptions)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Fakes.StubIWADLProvider">
+            <summary>Stub type of WebAPIToWADL.IWADLProvider</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Fakes.StubIWADLProvider.#ctor">
+            <summary>Initializes a new instance of type StubIWADLProvider</summary>
+        </member>
+        <member name="F:WebAPIToWADL.Fakes.StubIWADLProvider.Get">
+            <summary>Sets the stub of IWADLProvider.Get()</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Fakes.StubIWADLProvider.wapitwadl::WebAPIToWADL#IWADLProvider#Get">
+            <summary>Sets the stub of IWADLProvider.Get()</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Fakes.StubWADLProvider">
+            <summary>Stub type of WebAPIToWADL.WADLProvider</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Fakes.StubWADLProvider.#ctor(System.Web.Http.Description.IApiExplorer,WebAPIToWADL.IConvertApiDescriptionsToModel)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Fakes.StubWADLProvider.InitializeStub">
+            <summary>Initializes a new instance of type StubWADLProvider</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Fakes.StubWADLProvider.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Fakes.StubWADLProvider.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Fakes.StubWADLProvider.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimApplication">
+            <summary>Shim type of WebAPIToWADL.Models.Application</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimApplication.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimApplication.#ctor(WebAPIToWADL.Models.Application)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimApplication.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimApplication.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimApplication.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimApplication.Constructor">
+            <summary>Sets the shim of Application.Application()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimApplication.GrammarsGet">
+            <summary>Sets the shim of Application.get_Grammars()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimApplication.GrammarsSetGrammars">
+            <summary>Sets the shim of Application.set_Grammars(Grammars value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimApplication.ResourcesGet">
+            <summary>Sets the shim of Application.get_Resources()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimApplication.ResourcesSetResourcesCollection">
+            <summary>Sets the shim of Application.set_Resources(ResourcesCollection value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimApplication.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimApplication.AllInstances.GrammarsGet">
+            <summary>Sets the shim of Application.get_Grammars()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimApplication.AllInstances.GrammarsSetGrammars">
+            <summary>Sets the shim of Application.set_Grammars(Grammars value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimApplication.AllInstances.ResourcesGet">
+            <summary>Sets the shim of Application.get_Resources()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimApplication.AllInstances.ResourcesSetResourcesCollection">
+            <summary>Sets the shim of Application.set_Resources(ResourcesCollection value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimDocumentation">
+            <summary>Shim type of WebAPIToWADL.Models.Documentation</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimDocumentation.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimDocumentation.#ctor(WebAPIToWADL.Models.Documentation)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimDocumentation.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimDocumentation.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimDocumentation.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimDocumentation.Constructor">
+            <summary>Sets the shim of Documentation.Documentation()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimDocumentation.ContentGet">
+            <summary>Sets the shim of Documentation.get_Content()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimDocumentation.ContentSetString">
+            <summary>Sets the shim of Documentation.set_Content(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimDocumentation.TitleGet">
+            <summary>Sets the shim of Documentation.get_Title()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimDocumentation.TitleSetString">
+            <summary>Sets the shim of Documentation.set_Title(String value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimDocumentation.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimDocumentation.AllInstances.ContentGet">
+            <summary>Sets the shim of Documentation.get_Content()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimDocumentation.AllInstances.ContentSetString">
+            <summary>Sets the shim of Documentation.set_Content(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimDocumentation.AllInstances.TitleGet">
+            <summary>Sets the shim of Documentation.get_Title()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimDocumentation.AllInstances.TitleSetString">
+            <summary>Sets the shim of Documentation.set_Title(String value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimGrammars">
+            <summary>Shim type of WebAPIToWADL.Models.Grammars</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimGrammars.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimGrammars.#ctor(WebAPIToWADL.Models.Grammars)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimGrammars.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimGrammars.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimGrammars.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimGrammars.Constructor">
+            <summary>Sets the shim of Grammars.Grammars()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimGrammars.IncludesGet">
+            <summary>Sets the shim of Grammars.get_Includes()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimGrammars.IncludesSetListOfInclude">
+            <summary>Sets the shim of Grammars.set_Includes(List`1&lt;Include&gt; value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimGrammars.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimGrammars.AllInstances.IncludesGet">
+            <summary>Sets the shim of Grammars.get_Includes()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimGrammars.AllInstances.IncludesSetListOfInclude">
+            <summary>Sets the shim of Grammars.set_Includes(List`1&lt;Include&gt; value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimInclude">
+            <summary>Shim type of WebAPIToWADL.Models.Include</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimInclude.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimInclude.#ctor(WebAPIToWADL.Models.Include)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimInclude.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimInclude.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimInclude.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimInclude.Constructor">
+            <summary>Sets the shim of Include.Include()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimInclude.HrefGet">
+            <summary>Sets the shim of Include.get_Href()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimInclude.HrefSetString">
+            <summary>Sets the shim of Include.set_Href(String value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimInclude.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimInclude.AllInstances.HrefGet">
+            <summary>Sets the shim of Include.get_Href()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimInclude.AllInstances.HrefSetString">
+            <summary>Sets the shim of Include.set_Href(String value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimMethod">
+            <summary>Shim type of WebAPIToWADL.Models.Method</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimMethod.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimMethod.#ctor(WebAPIToWADL.Models.Method)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimMethod.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimMethod.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimMethod.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimMethod.Constructor">
+            <summary>Sets the shim of Method.Method()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimMethod.HttpMethodGet">
+            <summary>Sets the shim of Method.get_HttpMethod()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimMethod.HttpMethodSetHttpMethod">
+            <summary>Sets the shim of Method.set_HttpMethod(HttpMethod value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimMethod.IdGet">
+            <summary>Sets the shim of Method.get_Id()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimMethod.IdSetString">
+            <summary>Sets the shim of Method.set_Id(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimMethod.RequestGet">
+            <summary>Sets the shim of Method.get_Request()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimMethod.RequestSetRequest">
+            <summary>Sets the shim of Method.set_Request(Request value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimMethod.ResponsesGet">
+            <summary>Sets the shim of Method.get_Responses()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimMethod.ResponsesSetListOfResponse">
+            <summary>Sets the shim of Method.set_Responses(List`1&lt;Response&gt; value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimMethod.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimMethod.AllInstances.HttpMethodGet">
+            <summary>Sets the shim of Method.get_HttpMethod()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimMethod.AllInstances.HttpMethodSetHttpMethod">
+            <summary>Sets the shim of Method.set_HttpMethod(HttpMethod value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimMethod.AllInstances.IdGet">
+            <summary>Sets the shim of Method.get_Id()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimMethod.AllInstances.IdSetString">
+            <summary>Sets the shim of Method.set_Id(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimMethod.AllInstances.RequestGet">
+            <summary>Sets the shim of Method.get_Request()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimMethod.AllInstances.RequestSetRequest">
+            <summary>Sets the shim of Method.set_Request(Request value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimMethod.AllInstances.ResponsesGet">
+            <summary>Sets the shim of Method.get_Responses()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimMethod.AllInstances.ResponsesSetListOfResponse">
+            <summary>Sets the shim of Method.set_Responses(List`1&lt;Response&gt; value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimOption">
+            <summary>Shim type of WebAPIToWADL.Models.Option</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimOption.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimOption.#ctor(WebAPIToWADL.Models.Option)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimOption.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimOption.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimOption.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimOption.Constructor">
+            <summary>Sets the shim of Option.Option()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimOption.ValueGet">
+            <summary>Sets the shim of Option.get_Value()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimOption.ValueSetString">
+            <summary>Sets the shim of Option.set_Value(String value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimOption.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimOption.AllInstances.ValueGet">
+            <summary>Sets the shim of Option.get_Value()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimOption.AllInstances.ValueSetString">
+            <summary>Sets the shim of Option.set_Value(String value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimParameter">
+            <summary>Shim type of WebAPIToWADL.Models.Parameter</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimParameter.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimParameter.#ctor(WebAPIToWADL.Models.Parameter)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimParameter.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimParameter.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.Constructor">
+            <summary>Sets the shim of Parameter.Parameter()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.DefaultGet">
+            <summary>Sets the shim of Parameter.get_Default()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.DefaultSetString">
+            <summary>Sets the shim of Parameter.set_Default(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.DocumentationsGet">
+            <summary>Sets the shim of Parameter.get_Documentations()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.DocumentationsSetListOfDocumentation">
+            <summary>Sets the shim of Parameter.set_Documentations(List`1&lt;Documentation&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.NameGet">
+            <summary>Sets the shim of Parameter.get_Name()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.NameSetString">
+            <summary>Sets the shim of Parameter.set_Name(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.OptionsGet">
+            <summary>Sets the shim of Parameter.get_Options()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.OptionsSetListOfOption">
+            <summary>Sets the shim of Parameter.set_Options(List`1&lt;Option&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.ParamTypeGet">
+            <summary>Sets the shim of Parameter.get_ParamType()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.ParamTypeSetParamType">
+            <summary>Sets the shim of Parameter.set_ParamType(ParamType value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.RequiredGet">
+            <summary>Sets the shim of Parameter.get_Required()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.RequiredSetBoolean">
+            <summary>Sets the shim of Parameter.set_Required(Boolean value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.StyleGet">
+            <summary>Sets the shim of Parameter.get_Style()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.StyleSetStyle">
+            <summary>Sets the shim of Parameter.set_Style(Style value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.DefaultGet">
+            <summary>Sets the shim of Parameter.get_Default()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.DefaultSetString">
+            <summary>Sets the shim of Parameter.set_Default(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.DocumentationsGet">
+            <summary>Sets the shim of Parameter.get_Documentations()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.DocumentationsSetListOfDocumentation">
+            <summary>Sets the shim of Parameter.set_Documentations(List`1&lt;Documentation&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.NameGet">
+            <summary>Sets the shim of Parameter.get_Name()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.NameSetString">
+            <summary>Sets the shim of Parameter.set_Name(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.OptionsGet">
+            <summary>Sets the shim of Parameter.get_Options()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.OptionsSetListOfOption">
+            <summary>Sets the shim of Parameter.set_Options(List`1&lt;Option&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.ParamTypeGet">
+            <summary>Sets the shim of Parameter.get_ParamType()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.ParamTypeSetParamType">
+            <summary>Sets the shim of Parameter.set_ParamType(ParamType value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.RequiredGet">
+            <summary>Sets the shim of Parameter.get_Required()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.RequiredSetBoolean">
+            <summary>Sets the shim of Parameter.set_Required(Boolean value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.StyleGet">
+            <summary>Sets the shim of Parameter.get_Style()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimParameter.AllInstances.StyleSetStyle">
+            <summary>Sets the shim of Parameter.set_Style(Style value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimRepresentation">
+            <summary>Shim type of WebAPIToWADL.Models.Representation</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimRepresentation.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimRepresentation.#ctor(WebAPIToWADL.Models.Representation)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimRepresentation.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimRepresentation.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.Constructor">
+            <summary>Sets the shim of Representation.Representation()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.ElementGet">
+            <summary>Sets the shim of Representation.get_Element()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.ElementSetString">
+            <summary>Sets the shim of Representation.set_Element(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.MediaTypeGet">
+            <summary>Sets the shim of Representation.get_MediaType()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.MediaTypeSetString">
+            <summary>Sets the shim of Representation.set_MediaType(String value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimRepresentation.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.AllInstances.ElementGet">
+            <summary>Sets the shim of Representation.get_Element()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.AllInstances.ElementSetString">
+            <summary>Sets the shim of Representation.set_Element(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.AllInstances.MediaTypeGet">
+            <summary>Sets the shim of Representation.get_MediaType()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRepresentation.AllInstances.MediaTypeSetString">
+            <summary>Sets the shim of Representation.set_MediaType(String value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimRequest">
+            <summary>Shim type of WebAPIToWADL.Models.Request</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimRequest.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimRequest.#ctor(WebAPIToWADL.Models.Request)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimRequest.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimRequest.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRequest.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRequest.Constructor">
+            <summary>Sets the shim of Request.Request()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRequest.DocumentationsGet">
+            <summary>Sets the shim of Request.get_Documentations()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRequest.DocumentationsSetListOfDocumentation">
+            <summary>Sets the shim of Request.set_Documentations(List`1&lt;Documentation&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRequest.ParametersGet">
+            <summary>Sets the shim of Request.get_Parameters()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRequest.ParametersSetListOfParameter">
+            <summary>Sets the shim of Request.set_Parameters(List`1&lt;Parameter&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRequest.RepresentationsGet">
+            <summary>Sets the shim of Request.get_Representations()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRequest.RepresentationsSetListOfRepresentation">
+            <summary>Sets the shim of Request.set_Representations(List`1&lt;Representation&gt; value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimRequest.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRequest.AllInstances.DocumentationsGet">
+            <summary>Sets the shim of Request.get_Documentations()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRequest.AllInstances.DocumentationsSetListOfDocumentation">
+            <summary>Sets the shim of Request.set_Documentations(List`1&lt;Documentation&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRequest.AllInstances.ParametersGet">
+            <summary>Sets the shim of Request.get_Parameters()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRequest.AllInstances.ParametersSetListOfParameter">
+            <summary>Sets the shim of Request.set_Parameters(List`1&lt;Parameter&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRequest.AllInstances.RepresentationsGet">
+            <summary>Sets the shim of Request.get_Representations()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimRequest.AllInstances.RepresentationsSetListOfRepresentation">
+            <summary>Sets the shim of Request.set_Representations(List`1&lt;Representation&gt; value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimResource">
+            <summary>Shim type of WebAPIToWADL.Models.Resource</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResource.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResource.#ctor(WebAPIToWADL.Models.Resource)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResource.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResource.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.Constructor">
+            <summary>Sets the shim of Resource.Resource()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.DocumentationsGet">
+            <summary>Sets the shim of Resource.get_Documentations()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.DocumentationsSetListOfDocumentation">
+            <summary>Sets the shim of Resource.set_Documentations(List`1&lt;Documentation&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.IdGet">
+            <summary>Sets the shim of Resource.get_Id()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.IdSetString">
+            <summary>Sets the shim of Resource.set_Id(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.MethodsGet">
+            <summary>Sets the shim of Resource.get_Methods()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.MethodsSetListOfMethod">
+            <summary>Sets the shim of Resource.set_Methods(List`1&lt;Method&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.ParametersGet">
+            <summary>Sets the shim of Resource.get_Parameters()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.ParametersSetListOfParameter">
+            <summary>Sets the shim of Resource.set_Parameters(List`1&lt;Parameter&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.PathGet">
+            <summary>Sets the shim of Resource.get_Path()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.PathSetString">
+            <summary>Sets the shim of Resource.set_Path(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.QueryTypeGet">
+            <summary>Sets the shim of Resource.get_QueryType()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.QueryTypeSetString">
+            <summary>Sets the shim of Resource.set_QueryType(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.SubResourcesGet">
+            <summary>Sets the shim of Resource.get_SubResources()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.SubResourcesSetListOfResource">
+            <summary>Sets the shim of Resource.set_SubResources(List`1&lt;Resource&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.TypeGet">
+            <summary>Sets the shim of Resource.get_Type()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.TypeSetString">
+            <summary>Sets the shim of Resource.set_Type(String value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimResource.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.AllInstances.DocumentationsGet">
+            <summary>Sets the shim of Resource.get_Documentations()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.AllInstances.DocumentationsSetListOfDocumentation">
+            <summary>Sets the shim of Resource.set_Documentations(List`1&lt;Documentation&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.AllInstances.IdGet">
+            <summary>Sets the shim of Resource.get_Id()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.AllInstances.IdSetString">
+            <summary>Sets the shim of Resource.set_Id(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.AllInstances.MethodsGet">
+            <summary>Sets the shim of Resource.get_Methods()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.AllInstances.MethodsSetListOfMethod">
+            <summary>Sets the shim of Resource.set_Methods(List`1&lt;Method&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.AllInstances.ParametersGet">
+            <summary>Sets the shim of Resource.get_Parameters()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.AllInstances.ParametersSetListOfParameter">
+            <summary>Sets the shim of Resource.set_Parameters(List`1&lt;Parameter&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.AllInstances.PathGet">
+            <summary>Sets the shim of Resource.get_Path()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.AllInstances.PathSetString">
+            <summary>Sets the shim of Resource.set_Path(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.AllInstances.QueryTypeGet">
+            <summary>Sets the shim of Resource.get_QueryType()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.AllInstances.QueryTypeSetString">
+            <summary>Sets the shim of Resource.set_QueryType(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.AllInstances.SubResourcesGet">
+            <summary>Sets the shim of Resource.get_SubResources()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.AllInstances.SubResourcesSetListOfResource">
+            <summary>Sets the shim of Resource.set_SubResources(List`1&lt;Resource&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.AllInstances.TypeGet">
+            <summary>Sets the shim of Resource.get_Type()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResource.AllInstances.TypeSetString">
+            <summary>Sets the shim of Resource.set_Type(String value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimResourcesCollection">
+            <summary>Shim type of WebAPIToWADL.Models.ResourcesCollection</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResourcesCollection.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResourcesCollection.#ctor(WebAPIToWADL.Models.ResourcesCollection)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResourcesCollection.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResourcesCollection.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResourcesCollection.Bind(System.Collections.ICollection)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResourcesCollection.Bind(System.Collections.IEnumerable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResourcesCollection.Bind(System.Collections.IList)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResourcesCollection.Bind(System.Collections.Generic.ICollection{WebAPIToWADL.Models.Resource})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResourcesCollection.Bind(System.Collections.Generic.IEnumerable{WebAPIToWADL.Models.Resource})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResourcesCollection.Bind(System.Collections.Generic.IList{WebAPIToWADL.Models.Resource})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResourcesCollection.Bind(System.Collections.Generic.IReadOnlyCollection{WebAPIToWADL.Models.Resource})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResourcesCollection.Bind(System.Collections.Generic.IReadOnlyList{WebAPIToWADL.Models.Resource})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResourcesCollection.BaseGet">
+            <summary>Sets the shim of ResourcesCollection.get_Base()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResourcesCollection.BaseSetString">
+            <summary>Sets the shim of ResourcesCollection.set_Base(String value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResourcesCollection.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResourcesCollection.Constructor">
+            <summary>Sets the shim of ResourcesCollection.ResourcesCollection()</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimResourcesCollection.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResourcesCollection.AllInstances.BaseGet">
+            <summary>Sets the shim of ResourcesCollection.get_Base()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResourcesCollection.AllInstances.BaseSetString">
+            <summary>Sets the shim of ResourcesCollection.set_Base(String value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimResponse">
+            <summary>Shim type of WebAPIToWADL.Models.Response</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResponse.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResponse.#ctor(WebAPIToWADL.Models.Response)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResponse.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.ShimResponse.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResponse.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResponse.Constructor">
+            <summary>Sets the shim of Response.Response()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResponse.DocumentationsGet">
+            <summary>Sets the shim of Response.get_Documentations()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResponse.DocumentationsSetListOfDocumentation">
+            <summary>Sets the shim of Response.set_Documentations(List`1&lt;Documentation&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResponse.HttpStatusCodeGet">
+            <summary>Sets the shim of Response.get_HttpStatusCode()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResponse.HttpStatusCodeSetHttpStatusCode">
+            <summary>Sets the shim of Response.set_HttpStatusCode(HttpStatusCode value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResponse.ParametersGet">
+            <summary>Sets the shim of Response.get_Parameters()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResponse.ParametersSetListOfParameter">
+            <summary>Sets the shim of Response.set_Parameters(List`1&lt;Parameter&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResponse.RepresentationsGet">
+            <summary>Sets the shim of Response.get_Representations()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResponse.RepresentationsSetListOfRepresentation">
+            <summary>Sets the shim of Response.set_Representations(List`1&lt;Representation&gt; value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.ShimResponse.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResponse.AllInstances.DocumentationsGet">
+            <summary>Sets the shim of Response.get_Documentations()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResponse.AllInstances.DocumentationsSetListOfDocumentation">
+            <summary>Sets the shim of Response.set_Documentations(List`1&lt;Documentation&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResponse.AllInstances.HttpStatusCodeGet">
+            <summary>Sets the shim of Response.get_HttpStatusCode()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResponse.AllInstances.HttpStatusCodeSetHttpStatusCode">
+            <summary>Sets the shim of Response.set_HttpStatusCode(HttpStatusCode value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResponse.AllInstances.ParametersGet">
+            <summary>Sets the shim of Response.get_Parameters()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResponse.AllInstances.ParametersSetListOfParameter">
+            <summary>Sets the shim of Response.set_Parameters(List`1&lt;Parameter&gt; value)</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResponse.AllInstances.RepresentationsGet">
+            <summary>Sets the shim of Response.get_Representations()</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.ShimResponse.AllInstances.RepresentationsSetListOfRepresentation">
+            <summary>Sets the shim of Response.set_Representations(List`1&lt;Representation&gt; value)</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.StubApplication">
+            <summary>Stub type of WebAPIToWADL.Models.Application</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubApplication.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubApplication.InitializeStub">
+            <summary>Initializes a new instance of type StubApplication</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubApplication.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubApplication.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubApplication.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.StubDocumentation">
+            <summary>Stub type of WebAPIToWADL.Models.Documentation</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubDocumentation.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubDocumentation.InitializeStub">
+            <summary>Initializes a new instance of type StubDocumentation</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubDocumentation.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubDocumentation.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubDocumentation.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.StubGrammars">
+            <summary>Stub type of WebAPIToWADL.Models.Grammars</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubGrammars.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubGrammars.InitializeStub">
+            <summary>Initializes a new instance of type StubGrammars</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubGrammars.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubGrammars.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubGrammars.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.StubInclude">
+            <summary>Stub type of WebAPIToWADL.Models.Include</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubInclude.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubInclude.InitializeStub">
+            <summary>Initializes a new instance of type StubInclude</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubInclude.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubInclude.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubInclude.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.StubMethod">
+            <summary>Stub type of WebAPIToWADL.Models.Method</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubMethod.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubMethod.InitializeStub">
+            <summary>Initializes a new instance of type StubMethod</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubMethod.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubMethod.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubMethod.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.StubOption">
+            <summary>Stub type of WebAPIToWADL.Models.Option</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubOption.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubOption.InitializeStub">
+            <summary>Initializes a new instance of type StubOption</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubOption.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubOption.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubOption.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.StubParameter">
+            <summary>Stub type of WebAPIToWADL.Models.Parameter</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubParameter.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubParameter.InitializeStub">
+            <summary>Initializes a new instance of type StubParameter</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubParameter.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubParameter.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubParameter.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.StubRepresentation">
+            <summary>Stub type of WebAPIToWADL.Models.Representation</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubRepresentation.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubRepresentation.InitializeStub">
+            <summary>Initializes a new instance of type StubRepresentation</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubRepresentation.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubRepresentation.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubRepresentation.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.StubRequest">
+            <summary>Stub type of WebAPIToWADL.Models.Request</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubRequest.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubRequest.InitializeStub">
+            <summary>Initializes a new instance of type StubRequest</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubRequest.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubRequest.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubRequest.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.StubResource">
+            <summary>Stub type of WebAPIToWADL.Models.Resource</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubResource.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubResource.InitializeStub">
+            <summary>Initializes a new instance of type StubResource</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubResource.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubResource.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubResource.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.StubResourcesCollection">
+            <summary>Stub type of WebAPIToWADL.Models.ResourcesCollection</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubResourcesCollection.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubResourcesCollection.InitializeStub">
+            <summary>Initializes a new instance of type StubResourcesCollection</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubResourcesCollection.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubResourcesCollection.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubResourcesCollection.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:WebAPIToWADL.Models.Fakes.StubResponse">
+            <summary>Stub type of WebAPIToWADL.Models.Response</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubResponse.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WebAPIToWADL.Models.Fakes.StubResponse.InitializeStub">
+            <summary>Initializes a new instance of type StubResponse</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubResponse.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubResponse.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:WebAPIToWADL.Models.Fakes.StubResponse.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

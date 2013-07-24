@@ -1,19 +1,16 @@
 ﻿using System.Collections.Generic;
-using System.Net;
 using System.Xml.Serialization;
 
 namespace WebAPIToWADL.Models
 {
-    public class Response
+    public class Request
     {
-        [XmlAttribute("status")]
-        public HttpStatusCode HttpStatusCode { get; set; }
-
         public List<Documentation> Documentations { get; set; }
 
         public List<Representation> Representations { get; set; }
 
-        //style will be "header"
+        //style will be "query" or "header"
+        [XmlArrayItem("parameter")]
         public List<Parameter> Parameters { get; set; }
     }
 }
